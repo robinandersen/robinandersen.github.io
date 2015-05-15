@@ -95,9 +95,36 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: #0F0F0F;
+}
+
+.center {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 50%;
+    margin-left: -150px;
+    text-align: center;
+    top: 50%;
+    margin-top: -30px;
+
+}
 
 
+h1 {
+    font-family: "brandon-grotesque",sans-serif;
+    color: #fff;
+    font-size: 22px;
+    line-height: 0px;
+    font-weight: 900; 
+}
 
+p {
+    font-family: "brandon-grotesque",sans-serif;
+    color: #fff;
+    font-weight: 400; 
+}
 
 
 
