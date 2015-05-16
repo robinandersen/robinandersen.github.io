@@ -99,6 +99,44 @@ body {
     background: #0F0F0F;
 }
 
+header {
+    position: fixed;
+    top: 0;    
+    margin: 45px 5% 0 5%;
+    width: 90%;
+}
+
+header h1 {
+    font-size: 50px;
+    letter-spacing: 2px;
+    display: inline;
+    float: left;
+}
+
+header ul {
+    list-style: none;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    color: #fff;
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+header ul li:nth-child(1)  {
+    margin-right: 60px;
+}
+
+header ul li:nth-child(2)  {
+    margin-right: 60px;
+}
+
+
+
 .center {
     position: absolute;
     width: 300px;
