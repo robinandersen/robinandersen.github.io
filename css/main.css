@@ -47,6 +47,13 @@ hr {
     padding: 0;
 }
 
+a,
+    a:visited {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
@@ -111,11 +118,16 @@ header h1 {
     letter-spacing: 2px;
     display: inline;
     float: left;
+    font-family: "brandon-grotesque",sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 0;
 }
 
 header ul {
     list-style: none;
     float: right;
+    margin-top: 24px;
 }
 
 header ul li {
@@ -150,19 +162,7 @@ header ul li:nth-child(2)  {
 }
 
 
-h1 {
-    font-family: "brandon-grotesque",sans-serif;
-    color: #fff;
-    font-size: 22px;
-    line-height: 0px;
-    font-weight: 900; 
-}
 
-p {
-    font-family: "brandon-grotesque",sans-serif;
-    color: #fff;
-    font-weight: 400; 
-}
 
 
 
@@ -286,7 +286,7 @@ p {
 
     a,
     a:visited {
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     a[href]:after {
